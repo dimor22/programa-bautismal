@@ -1,0 +1,130 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #ffd7dc;
+    color: #a56363;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    padding: 2rem 1rem 2rem;
+    min-height: 100vh;
+    position: relative;
+    font-size: 20px;
+}
+
+header {
+    padding: 1rem 0 2.6rem
+}
+
+section {
+    padding: 1rem;
+    background-color: #ffd7dc;
+    border-radius: 6px;
+    box-shadow: 9px 9px 16px rgb(227 176 176 / 62%), -9px -9px 16px rgb(255 255 255 / 33%);
+    margin-bottom: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+h2 {
+    font-weight: normal;
+}
+.name {
+    font-size: 2.7rem;
+    font-weight: 100;
+}
+.splash {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: url(abi-bautismo.png);
+    background-size: cover;
+    background-position: top center;
+    transition:5s;
+    border-radius: 18px;
+    max-height: 1120px;
+}
+.map-image{
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.ubicacion {
+    display: flex;
+    justify-content: space-between;
+}
+.fecha,
+.ubicacion-nombre {
+    padding-top: 1rem;
+    display: block;
+    font-size: 23px;
+}
+.cerrar {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 100;
+}
+.ver-programa {
+    position: fixed;
+    bottom: 35px;
+    z-index: 2;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+.ver-programa button {
+    border: 0;
+    background-color: #fa989a;
+    padding: 7px 15px;
+    font-size: 16px;
+    box-shadow: 0 0 21px #bfbfbf;
+    border-radius: 18px;
+    color: #ffffff;
+}
+
+.lista-programa,
+.lista-himnos{
+    list-style-type: none;
+    padding-top: 1rem;
+}
+
+.lista-programa li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.lista-programa li:nth-child(even) {
+    background-color: #edc5ca85;
+}
+.lista-programa li.center{
+    justify-content: center;
+}
+.bautismo-li {
+    font-weight: 100;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px 0;
+}
+p {
+    margin-bottom: 1rem;
+}
+li.himno-titulo {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
